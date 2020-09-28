@@ -1,0 +1,23 @@
+{
+  "name": "greeter-service",
+  "version": "1.0.0",
+  "description": "This is the dynamic code generation variant of the Node examples. Code in these examples is generated at runtime using Protobuf.js.",
+  "main": "greeter_client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daretodave/grpc-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daretodave/grpc-service/issues"
+  },
+  "homepage": "https://github.com/daretodave/grpc-service#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.5",
+    "grpc": "^1.24.3"
+  }
+}
